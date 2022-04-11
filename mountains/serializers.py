@@ -12,13 +12,13 @@ class MountainsSerializer(ModelSerializer):
             'altitude',
             'lat',
             'long',
-            'location',
+            #'location',
             'created_at',
             'updated_at'
         ]
         read_only_fields = [
             'pk',
-            'location',
+            #'location',
             'created_at',
             'updated_at',
         ]

@@ -1,5 +1,5 @@
-# from django.db import models
-from django.contrib.gis.db import models
+from django.db import models
+#from django.contrib.gis.db import models
 
 
 class Mountain(models.Model):
@@ -7,7 +7,7 @@ class Mountain(models.Model):
     altitude = models.IntegerField()
     lat = models.FloatField()
     long = models.FloatField()
-    location = models.PointField(blank=True, null=True)
+    #location = models.PointField(blank=True, null=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 

@@ -12,6 +12,7 @@ djangorestframework-gis==0.18
 djangorestframework-simplejwt==4.6.0
 Fiona==1.8.21
 geopandas==0.10.2
+#gunicorn==20.1.0
 munch==2.5.0
 numpy==1.22.3
 pandas==1.4.2
